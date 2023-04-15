@@ -1,0 +1,14 @@
+# solicita ao usuário que digite um string
+string = input("Digite um string: ")
+
+# converte o string em uma lista de caracteres
+lista_caracteres = list(string)
+
+# inverte a lista de caracteres
+lista_caracteres.reverse()
+
+# converte a lista de caracteres de volta em um string
+string_invertido = "".join(lista_caracteres)
+
+# imprime o string invertido
+print("O string invertido é:", string_invertido)
